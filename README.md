@@ -22,10 +22,13 @@
 ### 1. Установите Docker Desktop
 Скачайте и установите Docker Desktop: https://www.docker.com/products/docker-desktop/
 
+Запустите Docker
+
 ### 2. Скачайте проект
-**Откройте терминал и выполните:**
-    git clone https://github.com/Sofiasong-star/airflow-etl-project.git
-    cd airflow-etl-project
+**Откройте терминал(Win + R)  и выполните поочередно:**
+   git clone https://github.com/Sofiasong-star/airflow-etl-project.git
+    
+   cd airflow-etl-project
 ### 3. Запустите контейнеры , используя команду:
   docker compose up -d
 ### 4. ПОДОЖДИТЕ ПАРУ МИНУТ, AIRFLOW ДОЛГО ДУМАЕТ!!!
@@ -34,9 +37,9 @@
    
    **Учётные данные по умолчанию:**
     
-   **Логин: sofia**
+   **Логин: admin**
    
-   **Пароль: sofia123**
+   **Пароль: BR5mY3zvKmNKvzrx**
    
 ### 6. Запустите ETL-пайплайн
   На главном экране найдите DAG с именем currency_etl.
