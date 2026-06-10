@@ -40,7 +40,8 @@
     Нажмите кнопку "Trigger DAG" (треугольник в круге) для ручного запуска.
     Через 20–30 секунд в колонке "Last Run" должен появиться зелёный кружок (Success). Пайплайн успешно выполнился!
 ### 7. Проверьте результат работы:
-   В командной строке введите команду: docker exec -it airflow-docker-boilerplate-master-airflow-1 sqlite3 /tmp/currency.db "SELECT * FROM usd_rates;"
-   
-    Вы должны увидеть таблицу с данными.
+  **В командной строке введите команду:**
+
+    docker exec -it airflow-docker-boilerplate-master-airflow-1 sqlite3 /tmp/currency.db "SELECT * FROM usd_rates;"
+ Вы должны увидеть таблицу с данными.
     
