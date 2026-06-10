@@ -1,7 +1,7 @@
 from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
-from operators.hello_operator import HelloOperator
+#from operators.hello_operator import HelloOperator
 import json
 import urllib.request
 import sqlite3
