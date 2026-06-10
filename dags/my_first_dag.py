@@ -19,7 +19,7 @@ dag = DAG(
     'currency_etl',
     default_args=default_args,
     description='Курс доллара из API (без доп. библиотек)',
-    schedule_interval=timedelta(minutes=1),
+    schedule_interval=timedelta(minutes=3),
     catchup=False,
 )
 
