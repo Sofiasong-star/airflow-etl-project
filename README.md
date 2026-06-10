@@ -23,14 +23,14 @@
 Скачайте и установите Docker Desktop: https://www.docker.com/products/docker-desktop/
 
 ### 2. Скачайте проект
-*   **Откройте терминал и выполните:**
+**Откройте терминал и выполните:**
     git clone https://github.com/Sofiasong-star/airflow-etl-project.git
     cd airflow-etl-project
 ### 3. Запустите контейнеры , используя команду:
   docker compose up -d
 ### 4. ПОДОЖДИТЕ ПАРУ МИНУТ, AIRFLOW ДОЛГО ДУМАЕТ
 ### 5. Откройте веб-сайт Airflow
-  Перейдите в браузере по адресу:http://localhost:8080
+  Перейдите в браузере по адресу: http://localhost:8080
    
    **Учётные данные по умолчанию:**
     
