@@ -54,6 +54,6 @@
 ### 7. Проверьте результат работы:
   **В командной строке введите команду:**
 
-    docker exec -it airflow-docker-boilerplate-master-airflow-1 sqlite3 /tmp/currency.db "SELECT * FROM usd_rates;"
+    docker exec -it airflow-etl-project-airflow-1 sqlite3 /tmp/currency.db "SELECT * FROM usd_rates;"
  Вы должны увидеть таблицу с данными.
     
